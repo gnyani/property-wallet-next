@@ -1,0 +1,23 @@
+{
+  "name": "property-wallet-next",
+  "version": "1.0.0",
+  "description": "property wallet static site trial with next",
+  "main": "index.js",
+  "author": "Gnyanendra Nath",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build && next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@builder.io/react": "^1.0.107",
+    "@material-ui/core": "^4.8.3",
+    "next": "^9.1.7",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.10.6"
+  }
+}
